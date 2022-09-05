@@ -1,0 +1,8 @@
+# Contains service, network, volumes for applications
+version: '2'
+
+services:
+  web:
+    image: test-image:latest
+    ports:
+      - "3000:3000"
